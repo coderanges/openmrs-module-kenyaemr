@@ -415,6 +415,14 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- Override legacy JUnit 4.11 from inherited test deps so Vintage can discover JUnit 4 tests -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+
         <!-- End OpenMRS core -->
 
         <dependency>
